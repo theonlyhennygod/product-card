@@ -32,7 +32,7 @@ Working on the front end skills.
 ## Author
 
 - Website - [www.argenisdelarosa.com](https://www.argenisdelarosa.com)
-- Frontend Mentor - [@](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@theonlyhennygod](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@argenistherose](https://www.twitter.com/argenistherose)
 
 
