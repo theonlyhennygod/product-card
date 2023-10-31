@@ -3,19 +3,22 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Typography */
-p {
-    font-size: .875rem;
-}
-
-/* Media Queries */
+/* Need to fix the fonts */
 
 
 @media screen and (min-width: 1440px) {
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .card {
-        width: 1140 px;
+        width: 1440 px;
         margin: 0 
         padding 20px;
     }
@@ -26,6 +29,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: 16px;
+    height: 100vh;
 }
 
 .card {
@@ -47,25 +51,57 @@ p {
     
 }
 
+.card__icon {
+    padding-right: 1rem;
+}
+
 .card__button {
+    text-align: center;
     background-color: hsl(158, 36%, 37%);
     color: white;
     width: 100%;
     height: 2rem;
     border-radius: .2rem;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .card__price {
     display: flex;
     align-items: center;
 }
 
-.card__discount--price {
-    color: hsl(158, 36%, 37%);
+.card__text--title {
+    text-align: left;
+    color: hsl(228, 12%, 48%)
 }
 
-/* .attribution {
+.card__text--paragraph {
+    text-align: left;
+    color: hsl(228, 12%, 48%);
+}
+
+.card__text--header {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.card__discount--price {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+}
+
+.card__original--price {
+    padding-left: 1rem;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.attribution {
     padding: 2rem;
     text-align: center;
-} */
+}
