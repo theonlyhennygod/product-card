@@ -1,0 +1,71 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+p {
+    font-size: .875rem;
+}
+
+/* Media Queries */
+
+
+@media screen and (min-width: 1440px) {
+    .card {
+        width: 1140 px;
+        margin: 0 
+        padding 20px;
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: .625rem;
+    border: none;
+    text-align: center;
+}
+
+.card__text {
+    padding: .75rem;
+}
+
+.card__image {
+    width: 100%;
+    
+}
+
+.card__button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 100%;
+    height: 2rem;
+    border-radius: .2rem;
+    border: none;
+}
+
+.card__price {
+    display: flex;
+    align-items: center;
+}
+
+.card__discount--price {
+    color: hsl(158, 36%, 37%);
+}
+
+/* .attribution {
+    padding: 2rem;
+    text-align: center;
+} */
